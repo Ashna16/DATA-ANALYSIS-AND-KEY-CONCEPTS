@@ -27,3 +27,9 @@ COMPONENTS OF DATA ANALYSIS SOLUTION
 4. Consume/ visualize : You have two ways to consume data: by querying or by using business intelligence (BI) tools. Querying produces results  
                         that are great for quick analysis by data analysts. Bl tools produce visualizations that are grouped into reports and
                         dashboards to help users explore data and determine the best actions to take.                     
+
+The collect component is where the services assemble data from many sources.
+The store component stores data in repositories.
+The process component is where services manipulate data into needed forms.
+The consume component is where data is presented in the required formats.
+
