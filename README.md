@@ -57,3 +57,23 @@ Value :
 Value is the ability for a solution to extract meaningful information from the data that has been stored and analyzed. Solutions must be
 able to produce the right form of analytical results to inform business decision makers and stakeholders of insights using trusted reports and
 dashboards.
+
+
+
+THREE STEPS FOR DATA ANALYSIS SOLUTION:
+
+1. Know where your data comes from
+
+The majority of data ingested by data analysis solutions comes from existing on-premises databases and file stores. This data is often in a state where the required processing within the solution will be minimal.Streaming data is a source of business data that is gaining popularity. This data source is less structured. It may require special software to collect the data and specific processing applications to correctly aggregate and analyze it in near real-time.Public data sets are another source of data for businesses. These include census data, health data, population data, and many other datasets that help businesses understand the data they are collecting on their customers. This data may need to
+be transformed so that it will contain only what the business needs.
+
+2. Know the options for processing your data
+
+There are many different solutions available for processing your data. There is no one-size-fits-all approach. You must carefully evaluate your business needs and match them to the services that will combine to provide you with the required results.
+Throughout this course, we will cover the services that AWS offers for each of the components pictured below.
+
+3. Know what you need to learn from your data
+
+You must be prepared to learn from your data, work with internal teams to optimize efforts, and be willing to experiment.
+It is vital to spot trends, make correlations, and run more efficient and profitabie businesses. It's time to put your data to work.
+
