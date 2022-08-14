@@ -53,7 +53,7 @@ Veracity :
 Veracity is the degree to which data is accurate, precise, and trusted. It is contingent on the integrity and trustworthiness of the data
 Solutions should be able to identify the common flaws in the data and fix them before the data is stored. This is. known as data cleansing. This process must be able to be completed within the time requirements of the solution, up to and including real-time processing speeds.
 
-Value ;
+Value :
 Value is the ability for a solution to extract meaningful information from the data that has been stored and analyzed. Solutions must be
 able to produce the right form of analytical results to inform business decision makers and stakeholders of insights using trusted reports and
 dashboards.
