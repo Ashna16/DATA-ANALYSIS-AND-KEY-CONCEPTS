@@ -77,3 +77,11 @@ Throughout this course, we will cover the services that AWS offers for each of t
 You must be prepared to learn from your data, work with internal teams to optimize efforts, and be willing to experiment.
 It is vital to spot trends, make correlations, and run more efficient and profitabie businesses. It's time to put your data to work.
 
+
+There are three broad classifications of data source types:
+
+Structured data is organized and stored in the form of values that are grouped into rows and columns of a table.
+
+Semistructured data is often stored in a series of key-value pairs that are grouped into elements within a file.
+
+Unstructured data is not structured in a consistent way. Some data may have structure similar to semi-structured data but others may only contain metadata.
