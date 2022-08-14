@@ -34,3 +34,26 @@ The process component is where services manipulate data into needed forms.
 The consume component is where data is presented in the required formats.
 
 
+WHAT ARE THE 5 V's OF DATA ANALYSIS?
+
+Volume: 
+Volume means the amount of data that will be ingested by the solution - the total size of the Data coming in. Solutions must work efficiently across distributed systems and be easily expandable in order to accommodate spikes in traffic.
+
+Velocity : 
+Velocity means the speed of data entering a solution. Many organizations now require near real-time ingestion and processing of data.
+The high velocity of data results in a shorter time to analyze than traditional data processing can provide.
+Solutions must be able to manage this velocity efficiently. Processing systems must be able to return results within an acceptable time frame.
+
+Variety:
+Data can come from many different sources.Variety means the number of different sources and the types of sources -
+that the solution will use.
+Solutions need to be sophisticated enough to manage all the different types of data while providing accurate analysis of the data.
+
+Veracity : 
+Veracity is the degree to which data is accurate, precise, and trusted. It is contingent on the integrity and trustworthiness of the data
+Solutions should be able to identify the common flaws in the data and fix them before the data is stored. This is. known as data cleansing. This process must be able to be completed within the time requirements of the solution, up to and including real-time processing speeds.
+
+Value ;
+Value is the ability for a solution to extract meaningful information from the data that has been stored and analyzed. Solutions must be
+able to produce the right form of analytical results to inform business decision makers and stakeholders of insights using trusted reports and
+dashboards.
