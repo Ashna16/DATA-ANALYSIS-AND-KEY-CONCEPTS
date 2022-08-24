@@ -78,18 +78,31 @@ You must be prepared to learn from your data, work with internal teams to optimi
 It is vital to spot trends, make correlations, and run more efficient and profitabie businesses. It's time to put your data to work.
 
 
-There are three broad classifications of data source types:
 
-Structured data is organized and stored in the form of values that are grouped into rows and columns of a table.
-
-Semistructured data is often stored in a series of key-value pairs that are grouped into elements within a file.
-
-Unstructured data is not structured in a consistent way. Some data may have structure similar to semi-structured data but others may only contain metadata.
 
 ------------------------------------------------  VOLUME ---------------------------------------------------------------------------
 
 
+There are three broad classifications of data source types:
 
+Structured data is organized and stored in the form of values that are grouped into rows and columns of a table.
+
+Semistructured data is often stored in a series of key-value pairs that are grouped into elements within a file, example the xml and json files. A very simple example of this can be the moves which one makes in the video games.
+
+Unstructured data is not structured in a consistent way. Some data may have structure similar to semi-structured data but others may only contain metadata.
+
+One way to deal with volume of data is by using Amazon S3
+
+AWS has a storage service called Amazon Simple Storage Service, or Amazon S3 for short. This service is an object store, which means you can store just about any kind of discrete object in it. An object is how Amazon S3 refers to files. It’s a powerful service. It’s scalable and can grow to any size you need. It’s durable, meaning that your files will be there when you need them. It implements industry-leading scalability, security, and performance. People use Amazon S3 for websites, mobile applications, and data analytics, just to name a few use cases.
+
+When you start using Amazon S3, you create buckets. They’re like file folders, only bigger, better organized, and with more security mechanisms. Next, you move data into the buckets. AWS gives you a lot of ways to do that, no matter how great the volume. You can even move exabytes in a single delivery.
+
+There are three key ways that implementing Amazon S3 as your storage solution can improve your high-volume data analysis solution.
+
+First, with Amazon S3, you can separate the way you store data from the way you process it. This is known as decoupling storage from processing. You may have separate buckets for raw data, temporary processing results, and final results.
+
+Second is parallelization. With Amazon S3, you can access any of these storage locations from any process, in parallel, without negatively impacting other processes.
+Finally, Amazon S3 becomes a central location to store analytical datasets, providing access for multiple analytic processes at the same time. This allows the solution to avoid the costly process of moving data between the storage system and processing system.
 
 
 
