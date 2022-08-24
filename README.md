@@ -109,5 +109,15 @@ An object is composed of a file and any metadata that describes that file. To st
 
 Buckets are logical containers for objects. You can have one or more buckets in your account and can control access for each bucket individually. You control who can create, delete, and list objects in the bucket. You can also view access logs for the bucket and its objects and choose the geographical region where Amazon S3 will store the bucket and its contents.
 
+![SQL COMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661378400/zgTyXzKSIeH_U9-IsY_l7A/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/RSGn-ujAlWbihgr3_nCVTAu1gHj5zraGn.png)
+
+Accessing your content
+Once objects have been stored in an Amazon S3 bucket, they are given an object key. Use this, along with the bucket name, to access the object.
+
+Below is an example of a URL for a single object in a bucket named doc, with an object key composed of the prefix 2006-03-01 and the file named AmazonS3.html.
+
+![SQL COMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661378400/zgTyXzKSIeH_U9-IsY_l7A/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/Al_uS49WadqDYkVT_JlgrhfdoRaLOwsAS.png)
+
+An object key is the unique identifier for an object in a bucket. Because the combination of a bucket, key, and version ID uniquely identifies each object, you can think of Amazon S3 as a basic data map between "bucket + key + version" and the object itself. Every object in Amazon S3 can be uniquely addressed through the combination of the web service endpoint, bucket name, key, and (optionally) version.
 
 
