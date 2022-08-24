@@ -85,3 +85,11 @@ Structured data is organized and stored in the form of values that are grouped i
 Semistructured data is often stored in a series of key-value pairs that are grouped into elements within a file.
 
 Unstructured data is not structured in a consistent way. Some data may have structure similar to semi-structured data but others may only contain metadata.
+
+------------------------------------------------  VOLUME ---------------------------------------------------------------------------
+
+
+
+
+
+
