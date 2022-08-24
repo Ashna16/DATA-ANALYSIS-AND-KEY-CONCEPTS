@@ -124,3 +124,12 @@ DATA LAKE
 
 
  A data lake is an architectural concept that helps you manage multiple data types from multiple sources, both structured and unstructured, through a single set of tools.
+
+A data lake takes Amazon S3 buckets and organizes them by categorizing the data inside the buckets. It doesn’t matter how the data got there or what kind it is. You can store both structured and unstructured data effectively in an Amazon S3 data lake. AWS offers a set of tools to manage the entire data lake without treating each bucket as separate, unassociated objects.
+
+Many businesses end up grouping data together into numerous storage locations called silos. These silos are rarely managed and maintained by the same team, which can be problematic. Inconsistencies in the way data was written, collected, aggregated, or filtered can cause problems when it is compared or combined for processing and analysis.
+
+For example, one team may use the address field to store both the street number and street name, while another team might use separate fields for street number and street name. When these datasets are combined, there is now an inconsistency in the way the address is stored, and it will make analysis very difficult.
+
+But by using data lakes, you can break down data silos and bring data into a single, central repository that is managed by a single team. That gives you a single, consistent source of truth. 
+Because data can be stored in its raw format, you don’t need to convert it, aggregate it, or filter it before you store it. Instead, you can leave that pre-processing to the system that processes it, rather than the system that stores it.
