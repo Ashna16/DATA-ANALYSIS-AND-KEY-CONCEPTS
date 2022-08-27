@@ -83,7 +83,7 @@ It is vital to spot trends, make correlations, and run more efficient and profit
 
 
 
-------------------------------------------------  VOLUME ---------------------------------------------------------------------------
+------------------------------------------------  VOLUME -----------------------------------------
 
 
 There are three broad classifications of data source types:
@@ -158,3 +158,4 @@ Data warehouses can be massive. Analyzing these huge stores of data can be confu
 A subset of data from a data warehouse is called a data mart. Data marts only focus on one subject or functional area. A warehouse might contain all relevant sources for an enterprise, but a data mart might store only a single department’s sources. Because data marts are generally a copy of data already contained in a data warehouse, they are often fast and simple to implement.
 
 
+------------------------------------------------  VELOCITY -----------------------------------------
