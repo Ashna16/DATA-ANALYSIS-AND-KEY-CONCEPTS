@@ -172,4 +172,14 @@ Data acceleration
 Another key characteristic of velocity on data is data acceleration, which means the rate at which large collections of data can be ingested, processed, and analyzed. Data acceleration is not constant. It comes in bursts. Take Twitter as an example. Hashtags can become hugely popular and appear hundreds of times in just seconds, or slow down to one tag an hour. That's data acceleration in action. Your system must be able to efficiently handle the peak of hundreds of tags a second and the lows of one tag an hour. 
 
 
-   
+CHALLENGES OF VELOCITY:
+
+1. Periodic velocity data ingest with batch processing
+
+Imagine that a retail chain is trying to analyze point-of-sale (POS) data from its franchise stores. The stores are located all over the world. Each location transmits batches of data to the central data center periodically throughout the day. The customer prefers to hold the analysis of the datasets until 11:50 pm Eastern Standard Time. At this time, all datasets must be rapidly processed so that reports can be generated and delivered to branch managers across the world as soon as possible. The slower collection of data followed by a rapid processing requirement is a common challenge.
+
+2. High-velocity data ingest with real-time processing
+
+Imagine a media company that makes decisions based on click stream data gathered from social media. The sheer amount of data produced per second is huge. Collection must be fast enough to gather all data without missing anything. Once collected, this data must be processed just as fast in a continuous stream. The rapid collection of data followed by the rapid processing of data is a common signature of streaming analytics.
+
+
