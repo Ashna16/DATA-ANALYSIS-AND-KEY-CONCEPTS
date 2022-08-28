@@ -41,3 +41,6 @@ The five main V's of data analysis are:
 4. Veracity
 5. Value
 
+![SQL COMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661720400/cJszwHL05vRyqx_11yz-iA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/H-ZCOsPJEBEkarHL_9P-CzBBrUVLfpKCw.png)
+
+
