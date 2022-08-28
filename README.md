@@ -193,4 +193,4 @@ Batch processing is the execution of a series of programs, or jobs, on one or mo
 
 Batch processing is the execution of a series of programs, or jobs, on one or more computers without manual intervention. Data is collected into batches asynchronously. The batch is sent to a processing system when specific conditions are met, such as a specified time of day. The results of the processing job are then sent to a storage location that can be queried later as needed.
 
-![SQLCOMMANDS(https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661724000/MqLpcokh7gF8mOODOyQYPA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/lUwzpHU8p_-NkdJE_LICrxU4Kipl21dTm.png)
+![SQLCOMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661724000/MqLpcokh7gF8mOODOyQYPA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/lUwzpHU8p_-NkdJE_LICrxU4Kipl21dTm.png)
