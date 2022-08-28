@@ -36,4 +36,5 @@ The store component stores data in repositories.
 The process component is where services manipulate data into needed forms.
 The consume component is where data is presented in the required 
 
+git checkout <revision> -- <README.md>
 
