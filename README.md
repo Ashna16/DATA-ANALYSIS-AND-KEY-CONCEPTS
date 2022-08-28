@@ -183,3 +183,14 @@ Imagine that a retail chain is trying to analyze point-of-sale (POS) data from i
 Imagine a media company that makes decisions based on click stream data gathered from social media. The sheer amount of data produced per second is huge. Collection must be fast enough to gather all data without missing anything. Once collected, this data must be processed just as fast in a continuous stream. The rapid collection of data followed by the rapid processing of data is a common signature of streaming analytics.
 
 
+BATCH PROCESSING:
+
+Batch processing is often thought of as a slow process. This is not the case. Batch processing must quickly and efficiently consume a huge amount of data all at once. This poses challenges that do not exist with stream processing.
+
+Batch data processing provides companies with the ability to dive deep into the data they have collected to produce complex analytics that simply cannot be achieved using streaming analytics.
+
+Batch processing is the execution of a series of programs, or jobs, on one or more computers without manual intervention. Data is collected into batches asynchronously. The batch is sent to a processing system when specific conditions are met, such as a specified time of day. The results of the processing job are then sent to a storage location that can be queried later as needed.
+
+Batch processing is the execution of a series of programs, or jobs, on one or more computers without manual intervention. Data is collected into batches asynchronously. The batch is sent to a processing system when specific conditions are met, such as a specified time of day. The results of the processing job are then sent to a storage location that can be queried later as needed.
+
+![SQLCOMMANDS(https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661724000/MqLpcokh7gF8mOODOyQYPA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/lUwzpHU8p_-NkdJE_LICrxU4Kipl21dTm.png)
