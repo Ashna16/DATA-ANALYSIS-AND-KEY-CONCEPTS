@@ -115,7 +115,7 @@ Data warehouses can be massive. Analyzing these huge stores of data can be confu
 
 A subset of data from a data warehouse is called a data mart. Data marts only focus on one subject or functional area. A warehouse might contain all relevant sources for an enterprise, but a data mart might store only a single department’s sources. Because data marts are generally a copy of data already contained in a data warehouse, they are often fast and simple to implement.
 
------------------------------------------- VELOCITY ----------------------------------------------------------------------------------------
+------------------------------------------ VELOCITY ------------------------------------------------------------------------------------
 
 When businesses need rapid insights from the data they are collecting, but the systems in place simply cannot meet the need, there's a velocity problem.
 
@@ -126,9 +126,19 @@ Data processing may only need to be performed once a day, making results availab
 SO BASICALLY :
 
 1. BATCH PROCESSING :
- a. SCHEDULED:
- b. PERIODIC:
+
+ a. SCHEDULED: Scheduled batch processing represents data that is processed in a very large volume on a regularlyscheduled basis. For instance,  
+               once a week or once a day. It is generally the same amount of data with each load, making these workloads predictable.
+
+ b. PERIODIC: Periodic batch processing is a batch of data that is processed at irregular times. These workloads are often run once a certain   
+              amount of data has been collected. This can make them unpredictable and hard to plan around.
  
  2. STREAM PROCESSING:
- a. NEAR REAL TIME:
- b. REAL TIME:
+ 
+ a. NEAR REAL-TIME: Near real-time processing represents streaming data that is processed in small individual
+                    batches. The batches are continuously collected and then processed within minutes of the data
+                    generation.
+ 
+ b. REAL TIME: Real-time processing represents streaming data that is processed in very small individual
+               batches.The batches are continuously collected and then processed within milliseconds of the data
+               generation.
