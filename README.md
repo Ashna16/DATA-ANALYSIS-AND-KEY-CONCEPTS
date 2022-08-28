@@ -74,7 +74,7 @@ Value is the ability for a solution to extract meaningful information from the d
 dashboards.
 
 
------------------------------------------- VOLUME -------------------------------------------------------------------------------------
+------------------------------------------ VOLUME --------------------------------------------------------------------------------------------------------------------------------------------------
 
 When businesses have more data than they are able to process and analyze, they have a volume problem.
 
@@ -115,7 +115,7 @@ Data warehouses can be massive. Analyzing these huge stores of data can be confu
 
 A subset of data from a data warehouse is called a data mart. Data marts only focus on one subject or functional area. A warehouse might contain all relevant sources for an enterprise, but a data mart might store only a single department’s sources. Because data marts are generally a copy of data already contained in a data warehouse, they are often fast and simple to implement.
 
------------------------------------------- VELOCITY -----------------------------------------------------------------------------------
+------------------------------------------ VELOCITY ----------------------------------------------------------------------------------------------------------------------------
 
 When businesses need rapid insights from the data they are collecting, but the systems in place simply cannot meet the need, there's a velocity problem.
 
@@ -145,3 +145,17 @@ SO BASICALLY :
                
                
 ![SQL COMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661720400/cJszwHL05vRyqx_11yz-iA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/u7xQDkmAfXh2vSh2_Lb2teMDO_Qr5PqAo.png)
+
+
+CHARACTERISTICS OF FOUR VELOCITIES ON COLLECTING AND PROCESSING DATA
+
+COLLECTING DATA
+
+
+Batch: Velocity is very predictable with batch processing. It amounts to large bursts of data transfer at scheduled intervals.
+
+Periodic: Velocity is less predictable with periodic processing. The loss of scheduled events can put a strain on systems and must be considered.
+
+Near real-time: Velocity is a huge concern with near real-time processing. These systems require data to be processed within minutes of the initial collection of the data. This can put tremendous strain on the processing and analytics systems involved.
+
+Real-time: Velocity is the paramount concern for real-time processing systems. Information cannot take minutes to process. It must be processed in seconds to be valid and maintain its usefulness.
