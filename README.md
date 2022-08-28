@@ -72,3 +72,24 @@ including real-time processing speeds.
 Value
 Value is the ability for a solution to extract meaningful information from the data that has been stored and analyzed. Solutions must be able to produce the right form of analytical results to inform business decision makers and stakeholders of insights using trusted reports and
 dashboards.
+
+
+--------------------------------- VOLUME --------------------------------------------------
+
+When businesses have more data than they are able to process and analyze, they have a volume problem.
+
+There are three broad classifications of data source types:
+
+Structured data is organized and stored in the form of values that are grouped into rows and columns of a table.
+Semistructured data is often stored in a series of key-value pairs that are grouped into elements within a file.
+Unstructured data is not structured in a consistent way. Some data may have structure similar to semi-structured data but others may only contain metadata.
+
+Amazon S3 concepts
+
+Amazon S3 stores data as objects within buckets.
+
+An object is composed of a file and any metadata that describes that file. To store an object in Amazon S3, you upload the file you want to store into a bucket. When you upload a file, you can set permissions on the object and add any metadata.
+
+Buckets are logical containers for objects. You can have one or more buckets in your account and can control access for each bucket individually. You control who can create, delete, and list objects in the bucket. You can also view access logs for the bucket and its objects and choose the geographical region where Amazon S3 will store the bucket and its contents.
+
+
