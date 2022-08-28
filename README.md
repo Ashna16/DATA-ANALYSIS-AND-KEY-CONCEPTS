@@ -159,3 +159,12 @@ A subset of data from a data warehouse is called a data mart. Data marts only fo
 
 
 ------------------------------------------------  VELOCITY -----------------------------------------
+
+When businesses need rapid insights from the data they are collecting, but the systems in place simply cannot meet the need, there's a velocity problem.
+
+Data processing means the collection and manipulation of data to produce meaningful information. Data collection is divided into two parts, data collection and data processing.
+
+Data processing may only need to be performed once a day, making results available the following morning, or it may need to be performed and made available immediately. This variance in the speed at which data processing must occur can be broken down into four categories.
+
+![SQL COMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661720400/cJszwHL05vRyqx_11yz-iA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/u7xQDkmAfXh2vSh2_Lb2teMDO_Qr5PqAo.png)
+
