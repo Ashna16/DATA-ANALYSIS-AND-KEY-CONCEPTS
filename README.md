@@ -74,7 +74,7 @@ Value is the ability for a solution to extract meaningful information from the d
 dashboards.
 
 
---------------------------------- VOLUME ----------------------------------------------------------------------------------------
+------------------------------------------ VOLUME ----------------------------------------------------------------------------------------
 
 When businesses have more data than they are able to process and analyze, they have a volume problem.
 
@@ -115,3 +115,20 @@ Data warehouses can be massive. Analyzing these huge stores of data can be confu
 
 A subset of data from a data warehouse is called a data mart. Data marts only focus on one subject or functional area. A warehouse might contain all relevant sources for an enterprise, but a data mart might store only a single department’s sources. Because data marts are generally a copy of data already contained in a data warehouse, they are often fast and simple to implement.
 
+------------------------------------------ VELOCITY ----------------------------------------------------------------------------------------
+
+When businesses need rapid insights from the data they are collecting, but the systems in place simply cannot meet the need, there's a velocity problem.
+
+Data processing means the collection and manipulation of data to produce meaningful information. Data collection is divided into two parts, data collection and data processing.
+
+Data processing may only need to be performed once a day, making results available the following morning, or it may need to be performed and made available immediately. This variance in the speed at which data processing must occur can be broken down into four categories.
+
+SO BASICALLY :
+
+1. BATCH PROCESSING :
+ a. SCHEDULED:
+ b. PERIODIC:
+ 
+ 2. STREAM PROCESSING:
+ a. NEAR REAL TIME:
+ b. REAL TIME:
