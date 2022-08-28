@@ -74,7 +74,7 @@ Value is the ability for a solution to extract meaningful information from the d
 dashboards.
 
 
------------------------------------------- VOLUME ----------------------------------------------------------------------------------------
+------------------------------------------ VOLUME -------------------------------------------------------------------------------------
 
 When businesses have more data than they are able to process and analyze, they have a volume problem.
 
@@ -115,7 +115,7 @@ Data warehouses can be massive. Analyzing these huge stores of data can be confu
 
 A subset of data from a data warehouse is called a data mart. Data marts only focus on one subject or functional area. A warehouse might contain all relevant sources for an enterprise, but a data mart might store only a single department’s sources. Because data marts are generally a copy of data already contained in a data warehouse, they are often fast and simple to implement.
 
------------------------------------------- VELOCITY ------------------------------------------------------------------------------------
+------------------------------------------ VELOCITY -----------------------------------------------------------------------------------
 
 When businesses need rapid insights from the data they are collecting, but the systems in place simply cannot meet the need, there's a velocity problem.
 
@@ -142,3 +142,6 @@ SO BASICALLY :
  b. REAL TIME: Real-time processing represents streaming data that is processed in very small individual
                batches.The batches are continuously collected and then processed within milliseconds of the data
                generation.
+               
+               
+![SQL COMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661720400/cJszwHL05vRyqx_11yz-iA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/u7xQDkmAfXh2vSh2_Lb2teMDO_Qr5PqAo.png)
