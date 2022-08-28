@@ -168,3 +168,21 @@ Data processing may only need to be performed once a day, making results availab
 
 ![SQL COMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661720400/cJszwHL05vRyqx_11yz-iA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/u7xQDkmAfXh2vSh2_Lb2teMDO_Qr5PqAo.png)
 
+So basically :
+
+1. Batch Processing:
+
+ a. Scheduled: Scheduled batch processing represents data that is processed in a very large volume on a regularly
+                scheduled basis. For instance, once a week or once a day. It is generally the same amount of data with each load, making these    
+                workloads predictable.
+                
+ b. Periodic: Periodic batch processing is a batch of data that is processed at irregular times. These workloads are often run once a certain  
+              amount of data has been collected. This can make them unpredictable and hard to plan around.
+
+2. Steam Processing:
+
+ a. Real-time: Real-time processing represents streaming data that is processed in very small individual batches.
+               The batches are continuously collected and then processed within milliseconds of the data generation.
+ 
+ b. Near Real-time: Near real-time processing represents streaming data that is processed in small individual batches.
+                    The batches are continuously collected and then processed within minutes of the data generation.
