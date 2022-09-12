@@ -206,4 +206,9 @@ Hadoop is a platform that provides distinct modules:
 
 1. Hadoop Common is the set of Java utilities and libraries that support the other Hadoop modules. These libraries help abstract the file system from the processing components. These Java files and scripts are required to start Hadoop.
 
+2.Hadoop Distributed File System (HDFS) is the distributed file system that stores the data in a high-throughput environment of community nodes. This architecture ensures very high aggregate bandwidth access to application data.
+
+3.Hadoop YARN is the resource management framework responsible for scheduling and executing processing jobs.
+
+4.Hadoop MapReduce is a YARN-based system that allows for parallel processing of large data sets on the cluster.
 
