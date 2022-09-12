@@ -193,4 +193,9 @@ Batch processing is the execution of a series of programs, or jobs, on one or mo
 
 Batch processing is the execution of a series of programs, or jobs, on one or more computers without manual intervention. Data is collected into batches asynchronously. The batch is sent to a processing system when specific conditions are met, such as a specified time of day. The results of the processing job are then sent to a storage location that can be queried later as needed.
 
-![SQLCOMMANDS](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1661724000/MqLpcokh7gF8mOODOyQYPA/tincan/c16bd0344c0123121a6326a58844db542da58ae5/assets/lUwzpHU8p_-NkdJE_LICrxU4Kipl21dTm.png)
+Amazon EMR and Apache Hadoop are used for Batch procesiing
+
+Amazon EMR is a managed service for implementing Apache Hadoop workloads. In addition to running the Apache Hadoop framework, you can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in EMR. You have the added advantage of being able to interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB. 
+
+Amazon EMR notebooks provide a serverless development and collaboration environment for one-time querying and exploratory analysis. You can manipulate the data and generate data plots using rich graphical tools. Amazon EMR notebooks monitor your jobs and even help you debug code from the notebooks.
+ 
