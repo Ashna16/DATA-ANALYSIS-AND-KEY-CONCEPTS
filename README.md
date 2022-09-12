@@ -212,3 +212,4 @@ Hadoop is a platform that provides distinct modules:
 
 4.Hadoop MapReduce is a YARN-based system that allows for parallel processing of large data sets on the cluster.
 
+
