@@ -310,4 +310,3 @@ OLTP-Data is structured for data entry
 OLAP-Data is structured for data retrieval**
 
 Semistructured and unstructured data are often stored in non-relational database systems, sometimes called NoSQL databases. This term can cause a bit of confusion. It is important to remember that SQL is a way of querying data. It implies precise structure. Non-relational or NoSQL does not mean the data stored cannot be queried using SQL
-
