@@ -252,3 +252,16 @@ Drawbacks of Flat File:
 2. Ambigious Values
 3. Relationship
 4. Missing Data
+
+**Relational databases**
+
+Flat-file storage may not fit your structured data storage needs. The next logical step is to move to a more robust solution: a relational database.
+
+A process known as normalization helps a business take flat-file data and turn it into a relational database. Normalization is a set of rules that work together to reduce redundancy, increase reliability, and improve the consistency of data storage.
+
+A relational database is built to store structured data so it can be collected, updated, and queried easily. Relational databases rely on a series of structures, called tables, to hold the collected data. These tables are navigated using the structured query language, or SQL.
+
+Logically, relational database tables group data based on a person, place, thing, or event related to that data. These groupings are referred to as entities. Each entity is stored as a table. 
+
+A column, known as a field, is used to describe one attribute of the entity. A row, known as a record, in the table represents a single instance of an entity.
+
