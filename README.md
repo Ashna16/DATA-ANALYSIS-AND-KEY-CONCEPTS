@@ -303,3 +303,10 @@ Both OLTP and OLAP systems can use either indexing method. However, there are ad
 The primary benefit of a relational database using SQL is that it is proven technology that is widely adopted and understood.There is an expectation of very good transactional latency, especially on appropriately sized hardware, and relational databases are considered outstanding for OLTP for relatively small data sets.
 
 There are scalability concerns with a relational database. As data sets grow, the only way to maintain performance is to increase the hardware capacities of the servers that run the application. Another key issue is the fixed schema of relational databases. It is difficult to make non-disruptive changes to the underlying database architectures, which can affect development times for new functionality.
+
+So in all for
+Flat File- Data is stored without strict structure
+OLTP-Data is structured for data entry
+OLAP-Data is structured for data retrieval
+
+
