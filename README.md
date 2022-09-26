@@ -243,4 +243,12 @@ The trade-off is with analytics. It can be more difficult to analyze semistructu
 **Structured data is hot, immediately ready to be analyzed. 
 Semistructured data is lukewarm—some data will be ready to go and other data may need to be cleansed or preprocessed. Unstructured data is the frozen ocean—full of exactly what you need but separated by all kinds of stuff you don’t need.**
 
+**Flat File:**
 
+Flat-file data generally resides in a worksheet or spreadsheet. This may not seem like a database, but it meets all of the basic requirements. This format provides a solid foundation for understanding some of the considerations when choosing a DBMS.
+
+Drawbacks of Flat File: 
+1. Duplicate Values
+2. Ambigious Values
+3. Relationship
+4. Missing Data
