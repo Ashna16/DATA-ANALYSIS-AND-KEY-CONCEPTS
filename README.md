@@ -224,5 +224,13 @@ In stream processing, you use multiple services: one service to ingest the const
 
 ---------------------------------------------- VARIETY ---------------------------------------------------------------------
 
+A data source can be just about anything—a folder on a file server, database, web page, and even a wearable device can be considered a data source. In each of these data sources, data is stored in a specific way. Some data sources use a schema to organize content and indexes to improve performance. Others organize data in a more flexible way and are called schemaless. Schemaless data sources still use indexes to improve performance. 
+
+There are three types of data:
+
+1. Structured Data: Structured data is stored in a tabular format, often within a database management system (DBMS). This data is organized based on a relational data model, which defines and standardizes data elements and their relation to one another. Data is stored in rows, with each row representing a single instance of a thing (for example, a customer). These rows are well understood due to the table schema, which explains what each field in the table represents. This makes structured data easy to query.
+
+The downside to structured data is its lack of flexibility. Let’s say that you have decided you want to track the age of your customers. You must reconfigure the schema to allow for this new data, and you must account for all records that don’t have a value for this new field. It is not impossible, but it can be a very time-consuming process.
+
 
 
