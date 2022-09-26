@@ -265,3 +265,5 @@ Logically, relational database tables group data based on a person, place, thing
 
 A column, known as a field, is used to describe one attribute of the entity. A row, known as a record, in the table represents a single instance of an entity.
 
+Relationships are created by first ensuring that every row in a table is unique. This is done by creating a primary key. This primary key value can then be used to create relationships between tables. A foreign key is a field that uses the values from a primary key in another table to define a record in the current table. This act is what builds the relationship. Some database engines can enforce this relationship to ensure that only values from the primary key can be used in the foreign key.
+
