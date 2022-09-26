@@ -298,3 +298,8 @@ In an OLAP system, the most common queries are aggregate queries. These queries 
 
 Both OLTP and OLAP systems can use either indexing method. However, there are advantages to choosing the method that is best suited to the types of queries that will be run the majority of the time.
 
+**Relational database pros and cons**
+
+The primary benefit of a relational database using SQL is that it is proven technology that is widely adopted and understood.There is an expectation of very good transactional latency, especially on appropriately sized hardware, and relational databases are considered outstanding for OLTP for relatively small data sets.
+
+There are scalability concerns with a relational database. As data sets grow, the only way to maintain performance is to increase the hardware capacities of the servers that run the application. Another key issue is the fixed schema of relational databases. It is difficult to make non-disruptive changes to the underlying database architectures, which can affect development times for new functionality.
