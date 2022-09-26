@@ -304,9 +304,10 @@ The primary benefit of a relational database using SQL is that it is proven tech
 
 There are scalability concerns with a relational database. As data sets grow, the only way to maintain performance is to increase the hardware capacities of the servers that run the application. Another key issue is the fixed schema of relational databases. It is difficult to make non-disruptive changes to the underlying database architectures, which can affect development times for new functionality.
 
-So in all for
+**So in all for
 Flat File- Data is stored without strict structure
 OLTP-Data is structured for data entry
-OLAP-Data is structured for data retrieval
+OLAP-Data is structured for data retrieval**
 
+Semistructured and unstructured data are often stored in non-relational database systems, sometimes called NoSQL databases. This term can cause a bit of confusion. It is important to remember that SQL is a way of querying data. It implies precise structure. Non-relational or NoSQL does not mean the data stored cannot be queried using SQL
 
